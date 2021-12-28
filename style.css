@@ -24,6 +24,7 @@ li a:hover{
 }
 .insta img{
     width: 25px;
+    margin-left: 10px;
 }
 .wapp img{
     width: 25px;
@@ -38,6 +39,9 @@ li a:hover{
     justify-content: left;
     align-items: center;
 }
+.alto{
+    height: 400px;
+}
 h3{
     font-family: 'Bebas Neue', cursive;
     color: rgb(8, 6, 1);
@@ -48,4 +52,34 @@ h3{
     justify-content: center;
     align-items: center;
 }
+footer{
+    background-color: sandybrown;
+    margin: 20px;
+    margin-right: 20px;
+}
 
+@media screen and (max-width: 480px){
+    .alto{
+        height: 200px;
+    }
+    .bb{
+        display: none;
+    }
+}
+
+.boton{
+    animation-name: aparecer;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5
+    }
+}
