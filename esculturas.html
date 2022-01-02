@@ -10,16 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=MonteCarlo&display=swap" rel="stylesheet">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
     <title>Vivi Espacio | by Viviana Barrán</title>
 
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light COLOR ">
+        <nav class="navbar navbar-expand-lg navbar-light COLOR m-4">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="./media/Logofinal.jpeg" class="logo mr" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +24,9 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item mr">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item mr">
                     <a class="nav-link" href="bio.html">Trayectoria</a>
                   </li>
                   <li class="nav-item dropdown mr">
@@ -35,12 +34,12 @@
                       Trabajos
                     </a>
                     <ul class="dropdown-menu COLOR" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Cuadros</a></li>
-                      <li><a class="dropdown-item" href="#">Esculturas</a></li>
+                      <li><a class="dropdown-item" href="cuadros.html">Cuadros</a></li>
+                      <li><a class="dropdown-item" href="esculturas.html">Esculturas</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="contacto.html">Contacto</a>
                   </li>
                 </ul>
                 <form class="d-flex">
@@ -52,17 +51,47 @@
           </nav>
     </header>
     <main class="container">
-            <section class="animate__animated animate__flip frase1 text-center m-5">
-                <h1>Mi trayectoria</h1>
-            </section>
-            <section class="video">
-                <iframe width="728" height="409" src="https://www.youtube.com/embed/ArMT5khxcCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </section>
-            <section class="volver m-5">
-                <a href="index.html">Volver a la página principal ↩</a>
-            </section>
+        <div class="row">
+            <div class="card col-6 m-5 m-auto" style="width: 18rem;">
+                <img src="https://arteisa.es/wp-content/uploads/2021/02/la-catedral-rodin.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Escultura Unión"</h5>
+                <p class="card-text">Esculturas en metal.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+            <div class="card col-6 m-5 m-auto" style="width: 18rem;">
+                <img src="https://frikiverse.com/images/products/thumbnails/31EyZGyqP5L._SL500_.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Escultura "Budha"</h5>
+                <p class="card-text">Esculturas de yeso.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card col-6 m-5 mt-5 m-auto" style="width: 18rem;">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_635708-MLA41973120510_052020-O.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Escultura "Orígenes"</h5>
+                <p class="card-text">Esculturas en madera.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+            <div class="card col-6 m-5 mt-5 m-auto" style="width: 18rem;">
+                <img src="https://i.pinimg.com/564x/02/84/0e/02840e96ad40fc53dd5420d3171494e0.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">Escultura "Bárbaro"</h5>
+                <p class="card-text">Esculturabstractas de pie.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+        </div>
+        <section class="volver m-5">
+            <a href="index.html">Volver a la página principal ↩</a>
+        </section>
     </main>
-    <footer>
+    <footer class="container">
         <div class="row">
           <div class="wapp col-6">
             <img src="https://www.svgrepo.com/show/106976/whatsapp.svg"  alt="">
