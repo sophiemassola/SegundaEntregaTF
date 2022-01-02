@@ -4,6 +4,7 @@ body{
 }
 .COLOR{
     background-color: whitesmoke;
+    border-bottom: solid 1px wheat;
 }
 .logo{
     width: 150px;
@@ -21,6 +22,9 @@ li a:hover{
 .frase2{
     font-family: 'MonteCarlo', cursive;
     font-size: 2.5rem;
+}
+.estilo{
+    font-family: 'Bebas Neue', cursive;
 }
 .insta img{
     width: 25px;
@@ -40,7 +44,7 @@ li a:hover{
     align-items: center;
 }
 .alto{
-    height: 400px;
+    height: 500px;
 }
 h3{
     font-family: 'Bebas Neue', cursive;
@@ -54,13 +58,13 @@ h3{
 }
 footer{
     background-color: sandybrown;
-    margin: 20px;
-    margin-right: 20px;
+    padding: 15px;
+    border-top: solid 1px wheat;
 }
 
 @media screen and (max-width: 480px){
     .alto{
-        height: 200px;
+        height: 220px;
     }
     .bb{
         display: none;
