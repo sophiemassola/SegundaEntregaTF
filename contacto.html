@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +10,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=MonteCarlo&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <title>Vivi Espacio | by Viviana Barrán</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light COLOR m-4">
+        <nav class="navbar navbar-expand-lg navbar-light COLOR">
             <div class="container-fluid">
               <a class="navbar-brand" href="index.html"><img src="./media/Logofinal.jpeg" class="logo mr" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +26,6 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item mr">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
                   <li class="nav-item mr">
                     <a class="nav-link" href="bio.html">Trayectoria</a>
                   </li>
@@ -50,7 +51,7 @@
           </nav>
     </header>
     <main class="container">
-        <h1 class="frase1 text-center mt-5">
+        <h1 class="animate__animated animate__flip frase1 text-center mt-5">
             Contacto
         </h1>
         <form>
@@ -64,29 +65,26 @@
                 <label for="exampleInputEmail1" class="form-label">Deje sus comentarios</label>
                 <input type="email" class="form-control mb-2" id="exampleInputEmail1" aria-describedby="emailHelp">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <button type="reset" class="btn btn-secondary">Reset</button>
+            <button type="submit" class="btn btn-primary mb-5">Submit</button>
+            <button type="reset" class="btn btn-secondary mb-5">Reset</button>
         </form>
-        <section class="volver m-5">
-            <a href="index.html">Volver a la página principal ↩</a>
-        </section>
     </main>
-    <footer class="container">
-        <div class="row">
-          <div class="wapp col-6">
-            <img src="https://www.svgrepo.com/show/106976/whatsapp.svg"  alt="">
-            <h3 class="m-3">
-              +54 2235825600
-            </h3>
-          </div>
-          <div class="insta col-6">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Black_Instagram_icon.svg"  alt="">
-            <h3 class="m-3">
-              Vivi.espacio
-            </h3>
-          </div>
+    <footer>
+      <div class="row">
+        <div class="wapp col-6">
+          <img src="https://www.svgrepo.com/show/106976/whatsapp.svg"  alt="">
+          <h3 class="m-3">
+            +54 2235825600
+          </h3>
         </div>
-      </footer>
+        <div class="insta col-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Black_Instagram_icon.svg"  alt="">
+          <h3 class="m-3">
+            Vivi.espacio
+          </h3>
+        </div>
+      </div>
+    </footer>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
